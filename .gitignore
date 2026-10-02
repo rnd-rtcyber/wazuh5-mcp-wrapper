@@ -1,0 +1,29 @@
+# Secrets / local config
+.env
+config/wazuh.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Logs and runtime state
+*.log
+*.log.err
+.mcp_tunnel_state.json
+.auth_body.json.tmp
+
+# Tunnel binary (auto-downloaded by start.bat/start.ps1)
+cloudflared.exe
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
